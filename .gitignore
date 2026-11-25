@@ -1,0 +1,13 @@
+target/
+.tools/
+*.log
+*.tmp
+~*
+.DS_Store
+Thumbs.db
+database/*.db-journal
+data/*.db-journal
+*docx
+*PDF
+*py
+EF234301_WebPro_Q2_5025251024_RinaltraNabasaS_5025251019_FakhrianElanta_5025521121_HaidarAbiyyuatTaqy*
