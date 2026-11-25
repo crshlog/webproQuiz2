@@ -2,7 +2,7 @@
 
 **Course:** EF234301 Web Programming (Class D) — Quiz 2  
 **Institution:** Department of Informatics, Institut Teknologi Sepuluh Nopember (ITS), Surabaya  
-**Stack:** Java 21 · Jakarta Server Pages (JSP 3.1) · Jakarta Servlets 6.0 · JSTL 3.0 · Embedded Apache Tomcat 10.1.33 · Dual SQLite / MySQL JDBC
+**Stack:** Java 21 · Jakarta Server Pages (JSP 3.1) · Jakarta Servlets 6.0 · JSTL 3.0 · Embedded Apache Tomcat 10.1.33 · SQLite
 
 ---
 
