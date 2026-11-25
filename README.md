@@ -1,4 +1,4 @@
-this is a clone from my [teammate](https://github.com/PopSharkkk/WebProgramming/tree/main) repo but only the quiz2 part of it
+this is a clone from my [teammate repo](https://github.com/PopSharkkk/WebProgramming/tree/main) but only the quiz2 part of it
 
 # Wild Indonesia — JSP Tourist Guide & Expedition Rental Platform
 
