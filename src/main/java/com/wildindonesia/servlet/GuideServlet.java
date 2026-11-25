@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class GuideServlet extends HttpServlet {
-    private static final String DEFAULT_IMG = "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=800&q=80";
+    private static final String DEFAULT_IMG = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -75,6 +75,10 @@ public class GuideServlet extends HttpServlet {
                 WebUtil.redirectWithSuccess(req, resp, "/guides", "Local guide removed.");
             }
         } catch (SQLException e) {
+            if (WebUtil.isConstraintViolation(e)) {
+                WebUtil.redirectWithError(req, resp, "/guides", "A guide with that HPI license number already exists.");
+                return;
+            }
             throw new ServletException("Error saving guide", e);
         }
     }
