@@ -1,3 +1,5 @@
+this is a clone from my [teammate repo](https://github.com/PopSharkkk/WebProgramming/tree/main) but only the quiz2 part of it
+
 # Wild Indonesia — JSP Tourist Guide & Expedition Rental Platform
 
 **Course:** EF234301 Web Programming (Class D) — Quiz 2  
